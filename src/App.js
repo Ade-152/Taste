@@ -6,7 +6,6 @@ function App() {
   const [account, setAccount] = useState(null);
   const [currentUser, setCurrentUser] = useState("");
   const [message, setMessage] = useState("");
-  const [email, setEmail] = useState("")
 
   function handleSubmit(e) {
     e.preventDefault();
